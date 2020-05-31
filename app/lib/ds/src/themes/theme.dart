@@ -18,7 +18,7 @@ abstract class RallyTheme {
 //        secondary: const Color(0xff03dac6),
 //        secondaryVariant: const Color(0xff018786),
         background: RallyColors.gray.shade100,
-        surface: RallyColors.gray.shade100,
+        surface: RallyColors.gray.shade200,
         error: RallyColors.red,
 //        onPrimary: Colors.white,
 //        onSecondary: Colors.black,
