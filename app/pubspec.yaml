@@ -19,3 +19,27 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Eczar
+      fonts:
+        - asset: fonts/Eczar/Eczar-Regular.ttf
+          weight: 400
+        - asset: fonts/Eczar/Eczar-bold.ttf
+          weight: 700
+    - family: RobotoCondensed
+      fonts:
+        - asset: fonts/RobotoCondensed/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: fonts/RobotoCondensed/RobotoCondensed-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/RobotoCondensed/RobotoCondensed-Regular.ttf
+          weight: 400
+        - asset: fonts/RobotoCondensed/RobotoCondensed-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: fonts/RobotoCondensed/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: fonts/RobotoCondensed/RobotoCondensed-BoldItalic.ttf
+          weight: 700
+          style: italic

@@ -11,6 +11,7 @@ abstract class RallyTheme {
   static ThemeData data() {
     return ThemeData(
       primarySwatch: RallyColors.green,
+      fontFamily: 'RobotoCondensed',
       colorScheme: ColorScheme.light(
         primary: RallyColors.green,
 //        primaryVariant: const Color(0xff3700b3),
