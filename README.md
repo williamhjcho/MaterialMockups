@@ -1,4 +1,4 @@
-[![Build Status](https://app.bitrise.io/app/ec7607aa87815c9d.svg?token=mMwPwMNbvOOCA9j9FZJS-w)](https://app.bitrise.io/app/31aaaf8a0dd4fffd)
+[![Build Status](https://app.bitrise.io/app/ec7607aa87815c9d.svg?token=mMwPwMNbvOOCA9j9FZJS-w)](https://app.bitrise.io/app/31aaaf8a0dd4fffd) [![codecov](https://codecov.io/gh/williamhjcho/Rally/branch/master/graph/badge.svg)](https://codecov.io/gh/williamhjcho/Rally)
 
 # Rally
 
