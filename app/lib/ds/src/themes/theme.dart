@@ -34,6 +34,11 @@ abstract class RallyTheme {
         englishLike: englishLike,
       ),
       visualDensity: VisualDensity.adaptivePlatformDensity,
+      tabBarTheme: TabBarTheme(
+        labelColor: Colors.white,
+        unselectedLabelColor: Colors.white,
+        labelPadding: EdgeInsets.symmetric(horizontal: 16),
+      ),
     );
   }
 

@@ -12,15 +12,27 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: RallyTheme.data(),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Builder(builder: (context) {
+        return DefaultTabController(
+          length: 5,
+          initialIndex: 0,
+          child: Scaffold(
+            appBar: const RallyTabBar(),
+            body: TabBarView(
+              children: List.generate(
+                5,
+                (index) => const MyHomePage(),
+              ),
+            ),
+          ),
+        );
+      }),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
+  const MyHomePage({Key key}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -37,20 +49,21 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text(widget.title)),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
+    final body = Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          const Text('You have pushed the button this many times:'),
+          Text(
+            '$_counter',
+            style: Theme.of(context).textTheme.headline4,
+          ),
+        ],
       ),
+    );
+
+    return Scaffold(
+      body: body,
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
