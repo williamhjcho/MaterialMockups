@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Rally.iml" filepath="$PROJECT_DIR$/.idea/Rally.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MaterialMockups.iml" filepath="$PROJECT_DIR$/.idea/MaterialMockups.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rally/rally.iml" filepath="$PROJECT_DIR$/rally/rally.iml" />
     </modules>
   </component>
 </project>
