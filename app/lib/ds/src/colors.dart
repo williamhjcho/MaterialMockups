@@ -64,6 +64,7 @@ abstract class RallyColors {
     0xFF33333d,
     <int, Color>{
       100: Color.fromARGB(255, 51, 51, 61),
+      200: Color.fromARGB(255, 55, 55, 63),
     },
   );
 }
