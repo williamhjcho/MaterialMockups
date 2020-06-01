@@ -14,8 +14,8 @@ abstract class RallyTheme {
       fontFamily: 'RobotoCondensed',
       colorScheme: ColorScheme.light(
         primary: RallyColors.green,
-//        primaryVariant: const Color(0xff3700b3),
-//        secondary: const Color(0xff03dac6),
+        primaryVariant: RallyColors.green.shade700,
+        secondary: RallyColors.darkGreen,
 //        secondaryVariant: const Color(0xff018786),
         background: RallyColors.gray.shade100,
         surface: RallyColors.gray.shade200,
@@ -125,6 +125,7 @@ abstract class RallyTheme {
       fontFamily: 'Eczar',
       fontWeight: FontWeight.bold,
       fontSize: 14,
+      letterSpacing: 1.0,
     ),
     caption: TextStyle(
       inherit: true,
